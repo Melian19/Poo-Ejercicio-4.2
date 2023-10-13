@@ -11,7 +11,7 @@ public class Prueba {
 
         //verificacion de metodos
         for (int i=0; i < animales.length; i++){
-            System.out.println(animales[i].getNombreCientifico());
+            System.out.println("Nombre cientifico: "+animales[i].getNombreCientifico());
             System.out.println("Sonido: "+animales[i].getSonido());
             System.out.println("Alimentos: "+animales[i].getAlimentos());
             System.out.println("Habitat: "+animales[i].getHabitat());
